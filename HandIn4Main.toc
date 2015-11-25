@@ -1,11 +1,21 @@
 \select@language {danish}
-\contentsline {section}{\numberline {1}Deadlock Detection}{3}
-\contentsline {subsection}{\numberline {1.1}Determine which lock request will be granted, blocked by the lock manager (LM)}{3}
-\contentsline {subsection}{\numberline {1.2}wait-for graph for the lock requests in the table in section \ref {lmsection} showed in Figur: \ref {fig:LmTable}}{4}
-\contentsline {subsection}{\numberline {1.3}Determine whether there exists a deadlock in the \\lock requests showed in the table in section \ref {lmsection} (Figur \ref {fig:LmTable}) and briefly explain why}{5}
-\contentsline {section}{\numberline {2}Deadlock prevention}{6}
-\contentsline {subsection}{\numberline {2.1}Determine which lock request will be granted, blocked or aborted by the lock manager 1 (LM1)}{6}
-\contentsline {subsection}{\numberline {2.2}Give the wait-for graph for the lock request in the table (Figur \ref {fig:Lm1TableDeadlock}). Give one reason why LM1 Results in a deadlock }{7}
-\contentsline {subsection}{\numberline {2.3}Deadlock prevention with LM2}{8}
-\contentsline {subsection}{\numberline {2.4}Deadlock prevention with LM3}{8}
-\contentsline {paragraph}{Table depicting lock requst handling of LM1, LM2 and LM3}{9}
+\contentsline {section}{\numberline {1}Problem 1: Serializability and 2PL}{3}
+\contentsline {subsection}{\numberline {1.1}Yes/No Questions}{3}
+\contentsline {paragraph}{Questions}{3}
+\contentsline {paragraph}{Answers}{3}
+\contentsline {subsection}{\numberline {1.2}Serializability}{4}
+\contentsline {paragraph}{Questions and given schedule}{4}
+\contentsline {paragraph}{Answer 1}{4}
+\contentsline {paragraph}{Answer 3}{5}
+\contentsline {paragraph}{Answer 4}{5}
+\contentsline {paragraph}{Answer 5}{5}
+\contentsline {section}{\numberline {2}Deadlock Detection}{7}
+\contentsline {subsection}{\numberline {2.1}Determine which lock request will be granted, blocked by the lock manager (LM)}{7}
+\contentsline {subsection}{\numberline {2.2}wait-for graph for the lock requests in the table in section \ref {lmsection} showed in Figur: \ref {fig:LmTable}}{8}
+\contentsline {subsection}{\numberline {2.3}Determine whether there exists a deadlock in the \\lock requests showed in the table in section \ref {lmsection} (Figur \ref {fig:LmTable}) and briefly explain why}{9}
+\contentsline {section}{\numberline {3}Deadlock prevention}{10}
+\contentsline {subsection}{\numberline {3.1}Determine which lock request will be granted, blocked or aborted by the lock manager 1 (LM1)}{10}
+\contentsline {subsection}{\numberline {3.2}Give the wait-for graph for the lock request in the table (Figur \ref {fig:Lm1TableDeadlock}). Give one reason why LM1 Results in a deadlock }{11}
+\contentsline {subsection}{\numberline {3.3}Deadlock prevention with LM2}{12}
+\contentsline {subsection}{\numberline {3.4}Deadlock prevention with LM3}{12}
+\contentsline {paragraph}{Table depicting lock requst handling of LM1, LM2 and LM3}{13}
