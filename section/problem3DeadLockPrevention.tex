@@ -1,18 +1,18 @@
 \section{Deadlock prevention}
-\subsection{Determine which lock request will be granted, blocked or aborted by the lock manager 1 (LM1)}
+\subsection{Determine which lock request will be granted, blocked or aborted by the lock manager 1 (LM1)}\label{deadlockLM1section}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.7\linewidth]{C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1TableDeadLockPrevention}
 \caption[Table showing how LM1 is handling locks]{Table showing how LM1 is handling lock requests.}
 \label{fig:Lm1TableDeadlock}
 \end{figure}
-
-\subsection{Give te wait-for graph for the lock request in the table (Figur \ref{fig:Lm1TableDeadlock}). Give one reason why LM1 Results in a deadlock }
+\pagebreak
+\subsection{Give the wait-for graph for the lock request in the table (Figur \ref{fig:Lm1TableDeadlock}). Give one reason why LM1 Results in a deadlock }
 
 Since the graph (Figur \ref{fig:waitForGraphForLM1DeadLock}) contains a cycle in such a way that T1, T2, T3 is waiting for each other, this results in a deadlock
 
-\begin{figure}
+\begin{figure} [H]
 \centering
 \includegraphics[width=0.7\linewidth]{C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphForLM1DeadLock}
 \caption[Wait-for graph of LM1 depicting a deadlock.]{}
@@ -21,7 +21,7 @@ Since the graph (Figur \ref{fig:waitForGraphForLM1DeadLock}) contains a cycle in
 \end{figure}
 
 	
-
+\pagebreak
 \subsection{Deadlock prevention with LM2} \label{deadlockLM2section}
 Please note that we have created a table (Figur \ref{fig:Lm123TableDeadlockPrevention}) that illustrates the task of section \ref{deadlockLM2section} and section \ref{deadlockLM3section}.
 \begin{itemize}
@@ -47,11 +47,12 @@ Please note that we have created a table (Figur \ref{fig:Lm123TableDeadlockPreve
 	\item Abort X(B) on T3
 	\item X(A) on T3 is blocked
 \end{itemize}
-
-\begin{figure}H[]
+\pagebreak
+\paragraph{Table depicting lock requst handling of LM1, LM2 and LM3}
+The table (Figur: \ref{fig:Lm123TableDeadlockPrevention}) presentates how LM1, LM2 and LM3 handle locks differently. This table is created from the information based on section \ref{deadlockLM1section}, section \ref{deadlockLM2section} and section \ref{deadlockLM3section}.
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.7\linewidth]{C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm123TableDeadlockPrevention}
-\caption[This is table is a visualization on LM1, LM2 and LM3.]{}
-\caption{}
+\caption{This is table is a visualization on LM1, LM2 and LM3.}
 \label{fig:Lm123TableDeadlockPrevention}
 \end{figure}

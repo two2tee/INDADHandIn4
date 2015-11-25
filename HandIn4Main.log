@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.18)  25 NOV 2015 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.18)  25 NOV 2015 16:07
 entering extended mode
 **HandIn4Main.tex
 (HandIn4Main.tex
@@ -135,29 +135,24 @@ Graphic file (type png)
 
 <use C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1Table.png>
 Package pdftex.def Info: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/
-image/Lm1Table.png used on input line 6.
+image/Lm1Table.png used on input line 5.
 (pdftex.def)             Requested size: 241.49895pt x 179.50404pt.
 
-Overfull \hbox (1.30142pt too wide) in paragraph at lines 11--11
-[]\OT1/cmr/bx/n/12 wait-for graph for the lo-ck requests in the tab-le showed
- []
+[3
 
-
+ <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1Table.png>]
 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphForLM.
-png, id=14, 252.19218pt x 245.79327pt>
+png, id=17, 252.19218pt x 245.79327pt>
 File: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphF
 orLM.png Graphic file (type png)
 
 <use C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphFo
 rLM.png>
 Package pdftex.def Info: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/
-image/waitForGraphForLM.png used on input line 15.
+image/waitForGraphForLM.png used on input line 14.
 (pdftex.def)             Requested size: 241.49895pt x 235.37376pt.
- [3
-
- <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1Table.png>] [4
- <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphForLM
-.png>]) [5] (section/problem3DeadLockPrevention.tex
+ [4 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphFo
+rLM.png>]) [5] (section/problem3DeadLockPrevention.tex
 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1TableDeadLockPr
 evention.png, id=24, 335.75438pt x 187.45032pt>
 File: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1TableDeadL
@@ -168,9 +163,13 @@ ckPrevention.png>
 Package pdftex.def Info: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/
 image/Lm1TableDeadLockPrevention.png used on input line 6.
 (pdftex.def)             Requested size: 241.49895pt x 134.82681pt.
+ [6
 
+
+ <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1TableDeadLockP
+revention.png>]
 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphForLM1
-DeadLock.png, id=25, 263.86078pt x 246.1697pt>
+DeadLock.png, id=28, 263.86078pt x 246.1697pt>
 File: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphF
 orLM1DeadLock.png Graphic file (type png)
 
@@ -179,40 +178,37 @@ rLM1DeadLock.png>
 Package pdftex.def Info: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/
 image/waitForGraphForLM1DeadLock.png used on input line 17.
 (pdftex.def)             Requested size: 241.49895pt x 225.3069pt.
+ [7 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphFo
+rLM1DeadLock.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
- ("C:\Program Files (x86)\MikTex\tex\latex\base\omscmr.fd"
+
+("C:\Program Files (x86)\MikTex\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
-
-[6
-
-
- <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1TableDeadLockP
-revention.png>]
+ [8]
 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm123TableDeadlock
-Prevention.png, id=30, 335.37798pt x 187.45032pt>
+Prevention.png, id=37, 335.37798pt x 187.45032pt>
 File: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm123TableDea
 dlockPrevention.png Graphic file (type png)
 
 <use C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm123TableDead
 lockPrevention.png>
 Package pdftex.def Info: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/
-image/Lm123TableDeadlockPrevention.png used on input line 53.
+image/Lm123TableDeadlockPrevention.png used on input line 55.
 (pdftex.def)             Requested size: 241.49895pt x 134.97841pt.
-) [7 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphF
-orLM1DeadLock.png>] [8 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/i
-mage/Lm123TableDeadlockPrevention.png>] (HandIn4Main.aux
+) [9 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm123TableDea
+dlockPrevention.png>] (HandIn4Main.aux
 (section/problem2DeadLock.aux) (section/problem3DeadLockPrevention.aux)) ) 
 Here is how much of TeX's memory you used:
- 1696 strings out of 493673
- 24030 string characters out of 3143122
- 83763 words of memory out of 3000000
- 5042 multiletter control sequences out of 15000+200000
+ 1699 strings out of 493673
+ 24071 string characters out of 3143122
+ 83784 words of memory out of 3000000
+ 5045 multiletter control sequences out of 15000+200000
  7895 words of font info for 28 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,6n,23p,295b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,23p,371b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/P
 rogram Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program
  Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
@@ -220,9 +216,9 @@ rogram Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program
 MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MikTex/
 fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MikTex/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on HandIn4Main.pdf (8 pages, 179374 bytes).
+Output written on HandIn4Main.pdf (9 pages, 182260 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

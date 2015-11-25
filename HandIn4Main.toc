@@ -1,10 +1,11 @@
 \select@language {danish}
 \contentsline {section}{\numberline {1}Deadlock Detection}{3}
 \contentsline {subsection}{\numberline {1.1}Determine which lock request will be granted, blocked by the lock manager (LM)}{3}
-\contentsline {subsection}{\numberline {1.2}wait-for graph for the lock requests in the table showed in Figur: \ref {fig:LmTable}}{3}
-\contentsline {subsection}{\numberline {1.3}Determine whether there exists a deadlock in the lock requests in the table above and briefly explain why}{5}
+\contentsline {subsection}{\numberline {1.2}wait-for graph for the lock requests in the table in section \ref {lmsection} showed in Figur: \ref {fig:LmTable}}{4}
+\contentsline {subsection}{\numberline {1.3}Determine whether there exists a deadlock in the \\lock requests showed in the table in section \ref {lmsection} (Figur \ref {fig:LmTable}) and briefly explain why}{5}
 \contentsline {section}{\numberline {2}Deadlock prevention}{6}
 \contentsline {subsection}{\numberline {2.1}Determine which lock request will be granted, blocked or aborted by the lock manager 1 (LM1)}{6}
-\contentsline {subsection}{\numberline {2.2}Give te wait-for graph for the lock request in the table (Figur \ref {fig:Lm1TableDeadlock}). Give one reason why LM1 Results in a deadlock }{6}
-\contentsline {subsection}{\numberline {2.3}Deadlock prevention with LM2}{6}
-\contentsline {subsection}{\numberline {2.4}Deadlock prevention with LM3}{7}
+\contentsline {subsection}{\numberline {2.2}Give the wait-for graph for the lock request in the table (Figur \ref {fig:Lm1TableDeadlock}). Give one reason why LM1 Results in a deadlock }{7}
+\contentsline {subsection}{\numberline {2.3}Deadlock prevention with LM2}{8}
+\contentsline {subsection}{\numberline {2.4}Deadlock prevention with LM3}{8}
+\contentsline {paragraph}{Table depicting lock requst handling of LM1, LM2 and LM3}{9}
