@@ -1,0 +1,5 @@
+#TEX files
+*.aux
+*.pdf
+*.log
+*.gz
