@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  25 NOV 2015 14:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  25 NOV 2015 20:25
 entering extended mode
 **C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHandIn
 4/HandIn4Main.tex
@@ -93,7 +93,9 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 Package babel Info: Making " an active character on input line 82.
 ))
 (C:\Users\FamilienMarstrand\Documents\INDAD\Assignment_Work_Folder\INDADHandIn4
-\HandIn4Main.aux)
+\HandIn4Main.aux
+(C:\Users\FamilienMarstrand\Documents\INDAD\Assignment_Work_Folder\INDADHandIn4
+\section/problem1.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
@@ -134,22 +136,81 @@ Missing character: There is no ¦ in font cmr12!
 {C:/Users/FamilienMarstrand/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 (C:\Users\FamilienMarstrand\Documents\INDAD\Assignment_Work_Folder\INDADHandIn4
-\HandIn4Main.aux) ) 
+\section/problem1.tex
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+
+<image/serializabilitySchedule1.png, id=8, 143.78719pt x 163.3603pt>
+File: image/serializabilitySchedule1.png Graphic file (type png)
+
+<use image/serializabilitySchedule1.png>
+Package pdftex.def Info: image/serializabilitySchedule1.png used on input line 
+28.
+(pdftex.def)             Requested size: 200.0003pt x 227.23216pt.
+ [2
+
+]
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 42.
+ [3 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHan
+dIn4/image/serializabilitySchedule1.png>] <image/dependencyGraph.png, id=19, 30
+6.77109pt x 254.07422pt>
+File: image/dependencyGraph.png Graphic file (type png)
+
+<use image/dependencyGraph.png>
+Package pdftex.def Info: image/dependencyGraph.png used on input line 47.
+(pdftex.def)             Requested size: 200.0003pt x 165.64638pt.
+
+<image/serializabilitySchedule2.png, id=20, 171.64125pt x 268.75406pt>
+File: image/serializabilitySchedule2.png Graphic file (type png)
+
+<use image/serializabilitySchedule2.png>
+Package pdftex.def Info: image/serializabilitySchedule2.png used on input line 
+58.
+(pdftex.def)             Requested size: 200.0003pt x 313.15741pt.
+ [4 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHan
+dIn4/image/dependencyGraph.png>])
+[5 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHand
+In4/image/serializabilitySchedule2.png>]
+(C:\Users\FamilienMarstrand\Documents\INDAD\Assignment_Work_Folder\INDADHandIn4
+\HandIn4Main.aux
+(C:\Users\FamilienMarstrand\Documents\INDAD\Assignment_Work_Folder\INDADHandIn4
+\section/problem1.aux)) ) 
 Here is how much of TeX's memory you used:
- 1514 strings out of 493921
- 20103 string characters out of 3144841
- 71960 words of memory out of 3000000
- 4836 multiletter control sequences out of 15000+200000
- 6675 words of font info for 24 fonts, out of 3000000 for 9000
+ 1556 strings out of 493921
+ 21556 string characters out of 3144841
+ 74238 words of memory out of 3000000
+ 4861 multiletter control sequences out of 15000+200000
+ 8241 words of font info for 29 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,24p,325b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ 27i,6n,24p,325b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr17.pfb>
-Output written on HandIn4Main.pdf (1 page, 35015 bytes).
+cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.
+pfb>
+Output written on HandIn4Main.pdf (5 pages, 133212 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
