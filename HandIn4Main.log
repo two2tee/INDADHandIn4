@@ -1,25 +1,13 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  25 NOV 2015 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.18)  25 NOV 2015 15:27
 entering extended mode
-**C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHandIn
-4/HandIn4Main.tex
-
-(C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHandIn4
-/HandIn4Main.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+**HandIn4Main.tex
+(HandIn4Main.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files (x86)\MikTex\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MikTex\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -33,31 +21,31 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MikTex\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+("C:\Program Files (x86)\MikTex\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MikTex\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MikTex\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\MikTex\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MikTex\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MikTex\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\MikTex\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -65,7 +53,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files (x86)\MikTex\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count88
 \float@exts=\toks15
@@ -73,41 +61,41 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks16
 \@floatcapt=\box27
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+("C:\Program Files (x86)\MikTex\tex\generic\babel\babel.sty"
+Package: babel 2015/08/03 3.9m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files (x86)\MikTex\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\danish.ldf"
+("C:\Program Files (x86)\MikTex\tex\latex\babel-danish\danish.ldf"
 Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+("C:\Program Files (x86)\MikTex\tex\generic\babel\babel.def"
+File: babel.def 2015/08/03 3.9m Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen105
 )
 Package babel Info: Making " an active character on input line 82.
 ))
-(C:\Users\FamilienMarstrand\Documents\INDAD\Assignment_Work_Folder\INDADHandIn4
-\HandIn4Main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+(HandIn4Main.aux (section/problem2DeadLock.aux)
+(section/problem3DeadLockPrevention.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files (x86)\MikTex\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count90
 \scratchdimen=\dimen106
@@ -122,34 +110,119 @@ LaTeX Font Info:    ... okay on input line 12.
 \everyMPtoPDFconversion=\toks18
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 14.
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¦ in font cmr12!
  [1
 
-{C:/Users/FamilienMarstrand/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/DennisThinhTan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (H
+andIn4Main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
+\tf@toc=\write3
+ [2] (section/problem2DeadLock.tex
+<C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1Table.png, id=1
+3, 252.19218pt x 187.45032pt>
+File: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1Table.png 
+Graphic file (type png)
 
-(C:\Users\FamilienMarstrand\Documents\INDAD\Assignment_Work_Folder\INDADHandIn4
-\HandIn4Main.aux) ) 
+<use C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1Table.png>
+Package pdftex.def Info: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/
+image/Lm1Table.png used on input line 6.
+(pdftex.def)             Requested size: 241.49895pt x 179.50404pt.
+
+Overfull \hbox (1.30142pt too wide) in paragraph at lines 11--11
+[]\OT1/cmr/bx/n/12 wait-for graph for the lo-ck requests in the tab-le showed
+ []
+
+
+<C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphForLM.
+png, id=14, 252.19218pt x 245.79327pt>
+File: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphF
+orLM.png Graphic file (type png)
+
+<use C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphFo
+rLM.png>
+Package pdftex.def Info: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/
+image/waitForGraphForLM.png used on input line 15.
+(pdftex.def)             Requested size: 241.49895pt x 235.37376pt.
+ [3
+
+ <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1Table.png>] [4
+ <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphForLM
+.png>]) [5] (section/problem3DeadLockPrevention.tex
+<C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1TableDeadLockPr
+evention.png, id=24, 335.75438pt x 187.45032pt>
+File: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1TableDeadL
+ockPrevention.png Graphic file (type png)
+
+<use C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1TableDeadLo
+ckPrevention.png>
+Package pdftex.def Info: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/
+image/Lm1TableDeadLockPrevention.png used on input line 6.
+(pdftex.def)             Requested size: 241.49895pt x 134.82681pt.
+
+<C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphForLM1
+DeadLock.png, id=25, 263.86078pt x 246.1697pt>
+File: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphF
+orLM1DeadLock.png Graphic file (type png)
+
+<use C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphFo
+rLM1DeadLock.png>
+Package pdftex.def Info: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/
+image/waitForGraphForLM1DeadLock.png used on input line 17.
+(pdftex.def)             Requested size: 241.49895pt x 225.3069pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
+ ("C:\Program Files (x86)\MikTex\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+
+[6
+
+
+ <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm1TableDeadLockP
+revention.png>]
+<C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm123TableDeadlock
+Prevention.png, id=30, 335.37798pt x 187.45032pt>
+File: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm123TableDea
+dlockPrevention.png Graphic file (type png)
+
+<use C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/Lm123TableDead
+lockPrevention.png>
+Package pdftex.def Info: C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/
+image/Lm123TableDeadlockPrevention.png used on input line 53.
+(pdftex.def)             Requested size: 241.49895pt x 134.97841pt.
+) [7 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/image/waitForGraphF
+orLM1DeadLock.png>] [8 <C:/Users/DennisThinhTan/Documents/GitHub/INDADHandIn4/i
+mage/Lm123TableDeadlockPrevention.png>] (HandIn4Main.aux
+(section/problem2DeadLock.aux) (section/problem3DeadLockPrevention.aux)) ) 
 Here is how much of TeX's memory you used:
- 1514 strings out of 493921
- 20103 string characters out of 3144841
- 71960 words of memory out of 3000000
- 4836 multiletter control sequences out of 15000+200000
- 6675 words of font info for 24 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 27i,6n,24p,325b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr17.pfb>
-Output written on HandIn4Main.pdf (1 page, 35015 bytes).
+ 1696 strings out of 493673
+ 24030 string characters out of 3143122
+ 83763 words of memory out of 3000000
+ 5042 multiletter control sequences out of 15000+200000
+ 7895 words of font info for 28 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 27i,6n,23p,295b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/P
+rogram Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program
+ Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files
+ (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/
+MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MikTex/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MikTex/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on HandIn4Main.pdf (8 pages, 179374 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
