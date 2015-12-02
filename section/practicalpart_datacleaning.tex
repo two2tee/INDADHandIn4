@@ -1,2 +1,64 @@
 \section{Practical part: Data Cleaning}
 
+To clean up the data in the \textbf{MovieLens} database we have performed data cleaning and checks on all tables containing foreign keys including \textbf{movieGenre}, \textbf{rating} and \textbf{user}. We have done the following: 
+
+\begin{itemize}
+	\item [1)] Checked if genres and movies mutually reference each other correctly.
+	\item [2)] Removed all data lacking proper foreign key references.
+	\subitem 2.1) Deleted Users with no proper zip code references. 
+	\subitem 2.2) Deleted Ratings lacking proper User references.
+	\item [3)] Modified user ages to better reflect actual average ages. 
+	\item [4)] Checked if all user occupations are referenced properly. 
+\end{itemize}
+
+\subsection{Example 1: movieGenre}
+
+All ids in genre are properly referenced in movieGenre according to the following query returning empty set: 
+
+\begin{verbatim}
+	SELECT id 
+	FROM genre 
+	WHERE NOT id 
+	IN (SELECT genreId FROM movieGenre); 
+\end{verbatim}
+
+\noindent Conclusion: we can assume that all movies have a genre and does not require further cleanup. \newline
+
+\noindent Check: all genres bound to movies actually reference a genre according to the following query returning empty set: 
+
+\begin{verbatim}
+	SELECT * 
+	FROM movieGenre
+	WHERE NOT genreId
+	IN (SELECT id FROM genre);
+\end{verbatim}
+
+\noindent Check: all movies bound to genres actually reference a movie according to the following query returning empty set: 
+
+\begin{verbatim}
+	SELECT * 
+	FROM movieGenre 
+	WHERE NOT movieId
+	IN (SELECT id FROM movie); 
+\end{verbatim}
+
+\noindent Check: all movie records exist and their foreign keys are referenced according to the following query returning empty set: 
+
+\begin{verbatim}
+	SELECT * 
+	FROM movieGenre
+	WHERE movieId LIKE NULL; 
+\end{verbatim}
+
+\noindent Check: all genre records exist and their foreign keys are referenced properly: 
+
+\begin{verbatim}
+	SELECT * 
+	FROM movieGenre
+	WHERE genreId LIKE NULL; 
+\end{verbatim}
+
+
+\begin{comment}
+Put onenote stuff here 
+\end{comment}
