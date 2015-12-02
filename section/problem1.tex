@@ -3,7 +3,7 @@
 \subsection{Yes/No Questions}
 \paragraph{Questions}
 \begin{enumerate}
-	\item  All serial transactions are both conﬂict serializable and view serializable.
+	\item  All serial transactions are both conflict serializable and view serializable.
 	\item For any schedule, if it is view serializable, then it must be conﬂict serializable.
 	\item  Under 2PL protocol, there can be schedules that are not serial.
 	\item  Any transaction produced by 2PL must be conﬂict serializable.
@@ -33,13 +33,13 @@
 \begin{enumerate}
 	\item Is this schedule serial?
 	\item  Give the dependency graph of this schedule.
-	\item Is this schedule conﬂict serializable?
+	\item Is this schedule conflict serializable?
 	\item  If you answer yes to the previous question, provide the equivalent serial schedule. If you answer no, brieﬂy explain why.
 	\item Could this schedule have been produced by 2PL?
 \end{enumerate}
 
 \paragraph{Answer 1}
-	No, because transactions are strated before running transactions are completed. For instance transaction $T_2$ starts before $T_1$ has ended.
+	No, because transactions are started before running transactions are completed. For instance transaction $T_2$ starts before $T_1$ has ended.
 \pagebreak
 
 \textbf{Answer 2}
@@ -51,7 +51,7 @@
 \paragraph{Answer 3}
 	No, because a schedule is conflict serializable if and only if the graph is acyclic. However, the graph contains a cycle between T1 and T3.
 \paragraph{Answer 4}
-	Not answered since no was stated in the answer above.
+	Not answered since no was started in the answer above.
 \paragraph{Answer 5}
 	Yes it could have been produced by 2PL, because it is View Serializable. It is View Serializable because it is View Equivalent to the following schedule \textit{S2}:
 	\begin{figure}[H]
