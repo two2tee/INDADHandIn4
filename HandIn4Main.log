@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  25 NOV 2015 20:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.2)  2 DEC 2015 14:21
 entering extended mode
 **C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHandIn
 4/HandIn4Main.tex
@@ -191,54 +191,53 @@ File: image/serializabilitySchedule2.png Graphic file (type png)
 <use image/serializabilitySchedule2.png>
 Package pdftex.def Info: image/serializabilitySchedule2.png used on input line 
 58.
-(pdftex.def)             Requested size: 200.0003pt x 313.15741pt.
- [5 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHan
-dIn4/image/dependencyGraph.png>])
-[6 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHand
-In4/image/serializabilitySchedule2.png>]
+(pdftex.def)             Requested size: 120.00018pt x 187.8928pt.
+) [5 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHa
+ndIn4/image/dependencyGraph.png> <C:/Users/FamilienMarstrand/Documents/INDAD/As
+signment_Work_Folder/INDADHandIn4/image/serializabilitySchedule2.png>]
 (C:\Users\FamilienMarstrand\Documents\INDAD\Assignment_Work_Folder\INDADHandIn4
 \section/problem2DeadLock.tex
-<image/Lm1Table.png, id=31, 252.19218pt x 187.45032pt>
+<image/Lm1Table.png, id=28, 252.19218pt x 187.45032pt>
 File: image/Lm1Table.png Graphic file (type png)
 
 <use image/Lm1Table.png>
 Package pdftex.def Info: image/Lm1Table.png used on input line 5.
 (pdftex.def)             Requested size: 241.49895pt x 179.50404pt.
- [7
+ [6
 
 
  <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHandIn
 4/image/Lm1Table.png>]
-<image/waitForGraphForLM.png, id=36, 252.19218pt x 245.79327pt>
+<image/waitForGraphForLM.png, id=32, 252.19218pt x 245.79327pt>
 File: image/waitForGraphForLM.png Graphic file (type png)
 
 <use image/waitForGraphForLM.png>
 Package pdftex.def Info: image/waitForGraphForLM.png used on input line 14.
 (pdftex.def)             Requested size: 241.49895pt x 235.37376pt.
- [8 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHan
-dIn4/image/waitForGraphForLM.png>]) [9]
+ [7 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHan
+dIn4/image/waitForGraphForLM.png>]) [8]
 (C:\Users\FamilienMarstrand\Documents\INDAD\Assignment_Work_Folder\INDADHandIn4
 \section/problem3DeadLockPrevention.tex
-<image/Lm1TableDeadLockPrevention.png, id=43, 335.75438pt x 187.45032pt>
+<image/Lm1TableDeadLockPrevention.png, id=40, 335.75438pt x 187.45032pt>
 File: image/Lm1TableDeadLockPrevention.png Graphic file (type png)
 
 <use image/Lm1TableDeadLockPrevention.png>
 Package pdftex.def Info: image/Lm1TableDeadLockPrevention.png used on input lin
 e 6.
 (pdftex.def)             Requested size: 241.49895pt x 134.82681pt.
- [10
+ [9
 
 
  <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHandIn
-4/image/Lm1TableDeadLockPrevention.png>]
-<image/waitForGraphForLM1DeadLock.png, id=47, 263.86078pt x 246.1697pt>
+4/image/Lm1TableDeadLockPrevention.png>] <image/waitForGraphForLM1DeadLock.png,
+ id=44, 263.86078pt x 246.1697pt>
 File: image/waitForGraphForLM1DeadLock.png Graphic file (type png)
 
 <use image/waitForGraphForLM1DeadLock.png>
 Package pdftex.def Info: image/waitForGraphForLM1DeadLock.png used on input lin
 e 17.
 (pdftex.def)             Requested size: 241.49895pt x 225.3069pt.
- [11 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHa
+ [10 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADHa
 ndIn4/image/waitForGraphForLM1DeadLock.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -246,15 +245,15 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
- [12]
-<image/Lm123TableDeadlockPrevention.png, id=55, 335.37798pt x 187.45032pt>
+ [11]
+<image/Lm123TableDeadlockPrevention.png, id=52, 335.37798pt x 187.45032pt>
 File: image/Lm123TableDeadlockPrevention.png Graphic file (type png)
 
 <use image/Lm123TableDeadlockPrevention.png>
 Package pdftex.def Info: image/Lm123TableDeadlockPrevention.png used on input l
 ine 55.
 (pdftex.def)             Requested size: 241.49895pt x 134.97841pt.
-) [13 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADH
+) [12 <C:/Users/FamilienMarstrand/Documents/INDAD/Assignment_Work_Folder/INDADH
 andIn4/image/Lm123TableDeadlockPrevention.png>]
 (C:\Users\FamilienMarstrand\Documents\INDAD\Assignment_Work_Folder\INDADHandIn4
 \HandIn4Main.aux
@@ -267,7 +266,7 @@ andIn4/image/Lm123TableDeadlockPrevention.png>]
 Here is how much of TeX's memory you used:
  1626 strings out of 493921
  24533 string characters out of 3144841
- 75830 words of memory out of 3000000
+ 75827 words of memory out of 3000000
  4906 multiletter control sequences out of 15000+200000
  8241 words of font info for 29 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -282,9 +281,9 @@ ublic/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmti10.pfb>
-Output written on HandIn4Main.pdf (13 pages, 246768 bytes).
+Output written on HandIn4Main.pdf (12 pages, 246133 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
