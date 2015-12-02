@@ -1,1 +1,50 @@
 \section{Practical part: Data Enriching}
+To add more information to \textbf{MovieLens}, we have imported the data from the .xlsx file \textbf{MedianZIP} containing the median and mean income for a given zip code, as well as the population of the area described by the zip code. Practically, we have done this by exporting the .xlsx file to the .csv file format, which we could then use to import the data into a table in \textbf{MovieLens}.
+
+\subsection{Importing the .xlsx to a table}
+\begin{itemize}
+	\item [1)]Export file to .csv
+	\subitem a. Removed header (defined when creating table)
+	\subitem b. Removed dots completely due to European encoding
+	\subitem c. Removed double semicolon and used new line to separate records instead
+	\item[2)]Create a table to hold average income for each zip
+	\subitem a. 
+	\begin{verbatim}
+		CREATE TABLE AverageIncomeFromZip(Zip int, Median double, Pop int);
+	\end{verbatim}
+	\item [3)]Import file to table
+	\subitem a. \begin{verbatim}
+		LOAD DATA LOCAL INFILE 'filename';
+	\end{verbatim}
+	\subitem b. \begin{verbatim}
+		CREATE TABLE MedianZip (Zip INT, Median INT, Mean INT, Pop INT);
+		\end{verbatim}
+		\begin{verbatim}
+		LOAD DATA LOCAL INFILE '%PATH_TO_CSV%' 
+		INTO TABLE MedianZip fields terminated by ';' lines terminated by '\n' (Zip, Median, Mean, Pop);
+		\end{verbatim}
+\end{itemize}
+
+
+
+\begin{comment}
+	Task 2: Data enrichment -  Enrich data set with e.g. median household income for each zip code 
+Use xlsx file, export it as CSV and use command LOAD DATA LOCAL INFILE 
+
+
+
+Create new table used to show the average income per household for each zipcode:
+
+	1) Export file to csv 
+		a. Remove header (defined when creating table) 
+		b. Removed dots completely due to European encoding 
+		c. Removed double semi collom and used new line to separate records instead 
+	
+	2) Create a table to hold average income for each zip 
+		a. CREATE TABLE AverageIncomeFromZip(Zip int, Median double, Pop int);
+
+	3) Load file
+		a. LOAD DATA LOCAL INFILE 'filename';
+		b. CREATE TABLE MedianZip (Zip INT, Median INT, Mean INT, Pop INT);  
+LOAD DATA LOCAL INFILE '%PATH_TO_CSV%' INTO TABLE MedianZip fields terminated by ';' lines terminated by '\n' (Zip, Median, Mean, Pop);
+\end{comment}

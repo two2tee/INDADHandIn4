@@ -3,5 +3,4 @@
 *.pdf
 *.log
 *.gz
-
-HandIn4Main.pdf
+.texpadtmp/
