@@ -21,5 +21,9 @@
 \contentsline {paragraph}{Table depicting lock requst handling of LM1, LM2 and LM3}{12}
 \contentsline {section}{\numberline {4}Practical part: Data Cleaning}{13}
 \contentsline {subsection}{\numberline {4.1}Example 1: movieGenre}{13}
-\contentsline {section}{\numberline {5}Practical part: Data Enriching}{15}
-\contentsline {section}{\numberline {6}Practical part: Relational OLAP model}{15}
+\contentsline {subsection}{\numberline {4.2}Example 2: user and zip code}{14}
+\contentsline {subsection}{\numberline {4.3}Example 3: rating(userId)}{14}
+\contentsline {subsection}{\numberline {4.4}Example 4: user(age)}{15}
+\contentsline {subsection}{\numberline {4.5}Example 5: occupation}{17}
+\contentsline {section}{\numberline {5}Practical part: Data Enriching}{18}
+\contentsline {section}{\numberline {6}Practical part: Relational OLAP model}{18}

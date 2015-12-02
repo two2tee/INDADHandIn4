@@ -13,41 +13,49 @@ To clean up the data in the \textbf{MovieLens} database we have performed data c
 
 \subsection{Example 1: movieGenre}
 
-All ids in genre are properly referenced in movieGenre according to the following query returning empty set: 
+We have performed the following queries to check and clean up the data: 
+
+Check: all ids in genre are properly referenced in movieGenre: 
 
 \begin{verbatim}
 	SELECT id 
 	FROM genre 
 	WHERE NOT id 
 	IN (SELECT genreId FROM movieGenre); 
+	-- Result is empty set 
 \end{verbatim}
 
 \noindent Conclusion: we can assume that all movies have a genre and does not require further cleanup. \newline
 
-\noindent Check: all genres bound to movies actually reference a genre according to the following query returning empty set: 
+\noindent Check: all genres bound to movies actually reference a genre:
 
 \begin{verbatim}
 	SELECT * 
 	FROM movieGenre
 	WHERE NOT genreId
 	IN (SELECT id FROM genre);
+	-- Result is empty set 
 \end{verbatim}
 
-\noindent Check: all movies bound to genres actually reference a movie according to the following query returning empty set: 
+\noindent Check: all movies bound to genres actually reference a movie:
 
 \begin{verbatim}
 	SELECT * 
 	FROM movieGenre 
 	WHERE NOT movieId
 	IN (SELECT id FROM movie); 
+	-- Result is empty set 
 \end{verbatim}
 
-\noindent Check: all movie records exist and their foreign keys are referenced according to the following query returning empty set: 
+\newpage
+
+\noindent Check: all movie records exist and their foreign keys are referenced properly:
 
 \begin{verbatim}
 	SELECT * 
 	FROM movieGenre
 	WHERE movieId LIKE NULL; 
+	-- Result is empty set 
 \end{verbatim}
 
 \noindent Check: all genre records exist and their foreign keys are referenced properly: 
@@ -58,7 +66,163 @@ All ids in genre are properly referenced in movieGenre according to the followin
 	WHERE genreId LIKE NULL; 
 \end{verbatim}
 
+\subsection{Example 2: user and zip code}
+Some tuples in \textbf{user} do not reference tuples in \textbf{zipcode}. We have concluded that the data becomes cleaner by deleting these \textbf{user} records completely. However, one could also just delete the \textbf{zipcode} record and give the \textbf{User} a default zip code. Arguably, the zip code may be important for demographic research. In this case, the majority of the zip codes should be kept. The following query has been used to delete 63 \textbf{user} records lacking proper foreign key values in \textbf{zipcode}: 
+
+\begin{verbatim}
+	DELETE FROM user
+	WHERE zip NOT IN 
+	(SELECT zip FROM zipcode); 
+	-- Result: deletes 63 user records 
+\end{verbatim}
+
+\noindent \textbf{Comment}: note that you can see the actual records by using the "SELECT FROM" expression instead of the "DELETE FROM". Also, if we delete these users, we should also reference check the rating table containing potentially deleted userIds (see example 3). 
+
+\subsection{Example 3: rating(userId)}
+The below query checks if all userIds in \textbf{ratings} actually reference a userId in \textbf{user}. Note that if we delete users from the prior zip query in example 2, the result may change and give bad data.
+
+\begin{verbatim}
+	SELECT * 
+	FROM rating
+	WHERE NOT userId IN 
+	(SELECT id from user); 
+	-- Returns 63 records 
+\end{verbatim}
+
+\newpage
+
+\noindent \textbf{Problem:} the 63 previously deleted users made 10360 reviews, which are no longer referenced according to the following query: 
+
+\begin{verbatim}
+	SELECT * 
+	FROM rating
+	WHERE NOT userId IN 
+	(SELECT id from user); 
+	-- Returns 10360 rows in 45 seconds 
+\end{verbatim}
+
+\noindent We deleted these rating records that do not properly reference \textbf{user}: 
+
+\begin{verbatim}
+	DELETE 
+	FROM RATING 
+	WHERE userId NOT IN 
+	(SELECT id FROM user);
+\end{verbatim}
+
+\noindent We also checked if all ratings associated with a movie actually reference a movie in the \textbf{movie} table: 
+
+\begin{verbatim}
+	SELECT * 
+	FROM rating
+	WHERE NOT movieId IN
+	(SELECT id FROM movie); 
+\end{verbatim}
+
+\noindent \textbf{Indexing}
+We have applied indexing on rating and user to dramatically increase the performance of the above queries that would otherwise take too long time:
+
+\begin{verbatim}
+	CREATE INDEX ratingUserIndex 
+	ON rating(userId);
+\end{verbatim}
+
+\begin{verbatim}
+	CREATE INDEX UserIdIndex 
+	ON user(id); 
+\end{verbatim}
+
+\noindent The indexes made our queries take only seconds as opposed to running in an unbounded time limit. 
+
+\subsection{Example 4: user(age)}
+We have modified the age intervals so that they correspond better to the average age of assumed reviewers. By way of example, the age of 18 could be changed to 16 assuming the youngest non edge case reviewers are 14 years old. To encapsulate the average of a given group interval we calculate the difference of the interval and use it as the stored value instead. By way of example, the interval [24-32] has a difference of 9 with an average of 4,5. Thus, the stored value will be 25 + 4 = 29,5 or 30 rounded up. 
+
+\newpage
+
+\noindent We found the existing age intervals with the following query: 
+
+\begin{verbatim}
+	SELECT DISTINCT age 
+	FROM user; 
+\end{verbatim}
+
+Giving the following age intervals: 
+
+\begin{itemize}
+	\item Age 1: 1-18
+	\item Age 18: 18-24
+	\item Age 25: 25-34
+	\item Age 35: 35-44
+	\item Age 45: 45-49
+	\item Age 50: 50-55
+	\item Age 56: 56+
+\end{itemize}
+
+We have decided to change the upper limit of the first interval to 16 since it is unlikely that any non edge case users are below the age of 14 (average between 14 and 18). Thus, "Age 1" is renamed to "Age 16". The updated intervals are as following: 
+
+\begin{itemize}
+	\item Age 1: 16 implies that 1 is updated to 16.
+	\item Age 18: 21 
+	\item Age 25: 30
+	\item Age 35: 40
+	\item Age 45: 47 
+	\item Age 50: 53
+	\item Age 56: 61 (assuming oldest non case edge user is 66 years old)
+\end{itemize}
+
+These updates are reflected in the database with the following queries: 
+
+\begin{verbatim}
+	-- Set age 1 to 16
+	UPDATE USER 
+	SET age = 16 
+	WHERe age = 1; 
+	
+	-- Update 1085 records from age 18 to 21 
+	UPDATE user
+	SET age = 21
+	WHERE age = 18; 
+	
+	-- Update 2076 records from age 25 to 30 
+	UPDATE user
+	SET age = 30
+	WHERE age = 25; 
+	
+	-- Update 1182 records from age 35 to 40 
+	UPDATE user
+	SET age = 40
+	WHERE age = 35; 
+	
+	-- Update 545 records from age 45 to 47 
+	UPDATE user
+	SET age = 47
+	WHERE age = 45; 
+	
+	-- Update 495 records from age 50 to 53 
+	UPDATE user
+	SET age = 53
+	WHERE age = 50; 
+	
+	-- Update 377 records from age 56 to 61 
+	UPDATE user
+	SET age = 61
+	WHERE age = 56; 
+\end{verbatim}
+
+\noindent Thus, the age intervals now better reflect the average age of reviewers. 
+
+\subsection{Example 5: occupation}
+
+We made a final check on the \textbf{occupation} table to se if user occupations are referenced properly in the occupation table: 
+
+\begin{verbatim}
+	SELECT * 
+	FROM user
+	WHERE NOT occupation IN
+	(SELECT id FROM occupatio);
+	-- Result is empty set 
+\end{verbatim}
 
 \begin{comment}
-Put onenote stuff here 
+
 \end{comment}
