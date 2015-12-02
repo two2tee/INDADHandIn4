@@ -22,4 +22,5 @@
 \contentsline {section}{\numberline {4}Practical part: Data Cleaning}{13}
 \contentsline {subsection}{\numberline {4.1}Example 1: movieGenre}{13}
 \contentsline {section}{\numberline {5}Practical part: Data Enriching}{15}
+\contentsline {subsection}{\numberline {5.1}Importing the .xlsx to a table}{15}
 \contentsline {section}{\numberline {6}Practical part: Relational OLAP model}{15}
