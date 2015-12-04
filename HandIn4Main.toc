@@ -1,0 +1,32 @@
+\select@language {danish}
+\contentsline {section}{\numberline {1}Problem 1: Serializability and 2PL}{3}
+\contentsline {subsection}{\numberline {1.1}Yes/No Questions}{3}
+\contentsline {paragraph}{Questions}{3}
+\contentsline {paragraph}{Answers}{3}
+\contentsline {subsection}{\numberline {1.2}Serializability}{4}
+\contentsline {paragraph}{Questions and given schedule}{4}
+\contentsline {paragraph}{Answer 1}{4}
+\contentsline {paragraph}{Answer 3}{5}
+\contentsline {paragraph}{Answer 4}{5}
+\contentsline {paragraph}{Answer 5}{5}
+\contentsline {section}{\numberline {2}Problem 2: Deadlock Detection}{6}
+\contentsline {subsection}{\numberline {2.1}Determine which lock request will be granted, blocked by the lock manager (LM)}{6}
+\contentsline {subsection}{\numberline {2.2}wait-for graph for the lock requests in the table in section \ref {lmsection} showed in Figur: \ref {fig:LmTable}}{7}
+\contentsline {subsection}{\numberline {2.3}Determine whether there exists a deadlock in the \\lock requests showed in the table in section \ref {lmsection} (Figur \ref {fig:LmTable}) and briefly explain why}{8}
+\contentsline {section}{\numberline {3}Problem 2: Deadlock prevention}{9}
+\contentsline {subsection}{\numberline {3.1}Determine which lock request will be granted, blocked or aborted by the lock manager 1 (LM1)}{9}
+\contentsline {subsection}{\numberline {3.2}Give the wait-for graph for the lock request in the table (Figur \ref {fig:Lm1TableDeadlock}). Give one reason why LM1 Results in a deadlock }{10}
+\contentsline {subsection}{\numberline {3.3}Deadlock prevention with LM2}{11}
+\contentsline {subsection}{\numberline {3.4}Deadlock prevention with LM3}{11}
+\contentsline {paragraph}{Table depicting lock requst handling of LM1, LM2 and LM3}{12}
+\contentsline {section}{\numberline {4}Practical part: Data Cleaning}{13}
+\contentsline {subsection}{\numberline {4.1}Example 1: movieGenre}{13}
+\contentsline {subsection}{\numberline {4.2}Example 2: user and zip code}{14}
+\contentsline {subsection}{\numberline {4.3}Example 3: rating(userId)}{14}
+\contentsline {subsection}{\numberline {4.4}Example 4: user(age)}{15}
+\contentsline {subsection}{\numberline {4.5}Example 5: occupation}{17}
+\contentsline {section}{\numberline {5}Practical part: Data Enriching}{18}
+\contentsline {subsection}{\numberline {5.1}Importing the .xlsx to a table}{18}
+\contentsline {section}{\numberline {6}Practical part: Relational OLAP model}{19}
+\contentsline {subsection}{\numberline {6.1}Questions for OLAP}{19}
+\contentsline {subsection}{\numberline {6.2}Star Schema}{19}
